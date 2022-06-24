@@ -51,4 +51,4 @@ https://beam.apache.org/documentation/programming-guide/#flatten
 CoGroupByKey:
 https://beam.apache.org/documentation/transforms/java/aggregation/cogroupbykey/ 
   
-source env-beam/bin/activate`
+`source env-beam/bin/activate`
