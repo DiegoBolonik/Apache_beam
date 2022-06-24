@@ -1,8 +1,4 @@
-git remote add origin https://github.com/DiegoBolonik/Apache_beam.git
-git branch -M main
-git push -u origin main
-
-source env-beam/bin/activate
+<H1>Apache Beam - manipulação de dataframes
 
 Aprendemos a utilizar o Apache Beam para realizar a ingestão de dados, onde utilizamos o ReadFromText para fazer a leitura dos dois datasets, dos dois dados brutos, tanto de casos de dengue quanto de precipitação meteorológica, o dataset de chuvas.
 
@@ -48,3 +44,5 @@ https://beam.apache.org/documentation/programming-guide/#flatten
 
 CoGroupByKey:
 https://beam.apache.org/documentation/transforms/java/aggregation/cogroupbykey/ 
+  
+source env-beam/bin/activate
