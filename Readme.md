@@ -1,5 +1,8 @@
 ## Apache Beam - manipulação de dataframes 
 
+<p align="center">
+  <img alt="Aiflow" src="fig1.png">
+  
 Aprendemos a utilizar o Apache Beam para realizar a ingestão de dados, onde utilizamos o ReadFromText para fazer a leitura dos dois datasets, dos dois dados brutos, tanto de casos de dengue quanto de precipitação meteorológica, o dataset de chuvas.
 
 Aplicamos nesses datasets várias transformações, como os Maps, FlatMap, Filter, também agrupamos e também combinamos esses dados aplicando as transformações necessárias para deixar o dado da forma como planejarmos no início, para ser utilizado depois numa persistência de dados, onde fizemos a escrita desses dados utilizando o WriteToText.
@@ -18,7 +21,10 @@ E com isso criamos o resultado, que é esse arquivo do tipo CSV, separado, por p
 
 Importamos o Pandas e pelo Pandas fizemos a leitura de um arquivo do tipo CSV, que foi transformado em um data frame, passamos o arquivo e o delimitador específico.
 
-E com o Pandas, nós aplicamos aqui um método específico, como, por exemplo, o groupby, para realizar algum tipo de processamento, para verificar as correlações entre a quantidade de chuva, a precipitação meteorológica, e a quantidade casos de dengue.
+<p align="center">
+  <img alt="Aiflow" src="fig2.png">
+
+E com o Pandas e o Seaborn, nós aplicamos aqui um método específico, como, por exemplo, o groupby, para realizar algum tipo de processamento, para verificar as correlações entre a quantidade de chuva, a precipitação meteorológica, e a quantidade casos de dengue.
 
 
 Opções da pipeline e leitura de dados:
@@ -45,4 +51,4 @@ https://beam.apache.org/documentation/programming-guide/#flatten
 CoGroupByKey:
 https://beam.apache.org/documentation/transforms/java/aggregation/cogroupbykey/ 
   
-source env-beam/bin/activate
+source env-beam/bin/activate`
