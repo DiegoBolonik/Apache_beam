@@ -1,4 +1,6 @@
-<p align="center"><h1>Apache Beam - data pipeline python<h1>
+<div align="center"> 
+  <h1 align="center">Apache Beam - data pipeline python</h1>
+</div>
 
 <p align="center">
   <img alt="Aiflow" src="fig1.png">
